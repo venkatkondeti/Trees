@@ -1,0 +1,3211 @@
+
+Trees and Graphs Interview Questions
+Page:
+1 2 3 4 5 6 7 8 9
+Filter:
+Sort By:
+Date | Number of Comments | Most Recent Comment | Votes
+
+    google-interview-questions
+    1
+    of 1 vote
+    8
+    Answers
+
+    Post order traversal for an N-ary tree iterative way.
+    Given,
+    struct Node {
+    int val;
+    vector<Node*> children;
+    };
+
+    Without modifying original structure.
+    - hm a day ago in United States | Report Duplicate | Flag
+    Google Software Engineer Algorithm C++ Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    2
+    Answers
+
+    Post order traversal for an N-ary tree iterative way.
+    Given,
+    struct Node {
+    int val;
+    vector<Node*> children;
+    };
+
+    To simplify you can modify the structure.
+    - hm a day ago in United States | Report Duplicate | Flag
+    Google Software Engineer Algorithm C++ Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    1
+    Answer
+
+    Round 2
+    Question 3 : You have to implement an external iterator which iterate the binary tree InOrder. You have to figure out what kind of iterator one should use, and implement each of those function. required complexity is O(N) time + O(log(N)) space
+    - sonesh 2 months ago in United States | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Coding Data Structures Trees and Graphs
+    microsoft-interview-questions
+    -3
+    of 3 votes
+    0
+    Answers
+
+    Round 1(taken by DATA SCIENTIST 2)
+    Question 1 : You are given a street map of a city, Every day you travel from your home to work. some day you take bus or someday your our car. Bus fare is also not constant, it may change in future, may increase or decrease ?
+    you have to find shortest path from your home to your work ?.
+    Note that : you have to expose this as library, so no custom assumptions. need to find out how you incorporate variable bus fare ?, also it is up-to the user to choose between bus and his car ?, in case of bus, you have to minimise the total money, and in case of care, you have to minimise the distance.
+    - sonesh 2 months ago in United States | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Algorithm Data Structures Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    0
+    Answers
+
+    Given an N-ary tree with thousands of nodes, pair the leaf nodes which do NOT SHARE the common path. i.e. Two Leaves can be Paired only if they do NOT have a common edge that was used in a previous pairing.
+    For example,
+    A
+    / | \
+    B C D
+    / / | \
+    E F G H
+    Leaf nodes: E, F, G, H & D
+
+    Possible Pairs in O/Ps:
+    a) (E-F), (G-H) or
+    b) (E-G), (F-H) or
+    c) (E-H), (F-G) or
+    d) (E-D), (F-G) or
+    e) (E-D), (G-H) or
+    f) (E-D), (F-H) or
+    g) (D-H), (F-G) or
+    h) (D-G), (F-H) or
+    i) (D-F), (G-H)
+    Note: If we pair(join) say, (E-F) then we can NOT pair any of the (D-G) or (D-H) as they SHARE the COMMON path from A to C.
+
+    i.e. E-B-A-C-F —> (E-F) pair
+    D-A-C-G —> (D-G) pair
+    D-A-C-H —> (D-H) pair
+    So the above case is NOT possible
+    - nemesis 2 months ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    uber-interview-questions
+    0
+    of 2 votes
+    4
+    Answers
+
+    Serialize & Deserialize a binary tree
+    - JSDUDE 3 months ago in United States | Report Duplicate | Flag
+    Uber Software Developer Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    34
+    Answers
+
+    Given two binary trees ( not BST) , return true if both of them have same inorder else return false.
+    Eg.
+
+    B                                   
+           /      \                                    
+         A       C
+
+    A
+       \ 
+         B
+           \
+             C
+
+    Both of the trees have same inorder ( A-B-C) hence function will return true
+
+    P.S.
+    Please note, we can write inorder method call it once for first tree and then second tree, and finally compare both inorder.
+
+    We want to parallely do inorder on both tree, if there is mismatch between inorder nodes of both trees, we can stop the traversal and return false
+    - Anonymous 5 months ago in United States | Report Duplicate | Flag
+    Google Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    12
+    Answers
+
+    Assuming you have a binary tree which stores integers, count the number of nodes whose value is lower than the value of its upper nodes.
+    - sandeep.nie 5 months ago in United States | Report Duplicate | Flag
+    Amazon Software Developer Algorithm Trees and Graphs
+    amazon-interview-questions
+    4
+    of 4 votes
+    28
+    Answers
+
+    in a tree any root can have any number of children. Every node has an integer value. Find the maximum length on consecutive number sequence anywhere in the tree. For example if root is 2 and one child is 3, its child is 4 its child is 6 then max length will be 3. I was able to write the code the find of one sequence but when one sequence ends and other starts I was not able to handle that case. I think its hard to do by recursion. Is there any other trick or algorithm for this??
+    - ajrules2105 6 months ago in United States | Report Duplicate | Flag
+    Amazon SDE1 Trees and Graphs
+    google-interview-questions
+    -1
+    of 1 vote
+    24
+    Answers
+
+    design and implement a calculater that can calculate expressions like:
+    + 2 4
+    * 8 ( + 7 12)
+    ( + 7 ( * 8 12 ) ( * 2 (+ 9 4) 7 ) 3 )
+
+    (PS:all items are space delimetered.)
+
+    Example answers
+    + 2 4 => 2 + 4 = 6
+    * 8 ( + 7 12) => 8 * ( 7 + 12 ) = 152
+    ( + 7 ( * 8 12 ) ( * 2 (+ 9 4) 7 ) 3 ) => 7+8*12+2*(9+4)*7+3 = 148
+    - srcnaks 7 months ago in - | Report Duplicate | Flag
+    Google Software Engineer / Developer Algorithm Data Structures Problem Solving Stacks String Manipulation Trees and Graphs
+    adp-interview-questions
+    0
+    of 0 votes
+    14
+    Answers
+
+    A parent array P is given where P[i] denotes the parent of the ith node in the tree(the tree is generic). Parent of root is indicated with -1. I need to find the height/depth of tree. (Best sol in O(n))
+    - gopi.komanduri 11 months ago in India | Report Duplicate | Flag
+    ADP Analyst Algorithm Arrays C# Data Structures Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    3
+    Answers
+
+    Given a binary tree,Write a function to return all of the nodes from a given node and a given distance. The function has three parameters root, the given node and the given distance. For example
+    5
+    /\
+    4 7
+    /\
+    6 10
+    \
+    12
+    Calling the function F(root,7,1) will the return all the nodes from node 7 with the distance 1 which is 6,10,5
+    another example is F(root.7,2) will the return nodes 12,4
+    - Danielnguyen0130 about a year ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    8
+    Answers
+
+    Write a function to return all of the nodes from a given node and a given distance. The function has three parameter root, the given node and the given distance. For example
+    5
+    /\
+    4 7
+    /\
+    6 10
+    \
+    12
+    Calling the function F(root,7,1) will the return all the nodes from node 7 with the distance 1 which is 6,10,5
+    another example is F(root.7,2) will the return nodes 12,4
+    - Danielnguyen0130 about a year ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    trees-and-graphs-interview-questions
+    -1
+    of 1 vote
+    0
+    Answers
+
+    Give a Binary tree, write a function to return all the nodes from a given with a given distance. The function has three parameters root of tree, a given node, a given distance. For example,
+    5
+    /\
+    4 7
+    /\
+    3 10
+    \
+    12
+    calling the function F(root,7,1) will return nodes 3,5,10
+    calling F(root,7,2) will return nodes 12,4
+    - Danielnguyen0130 about a year ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    algorithm-interview-questions
+    -1
+    of 1 vote
+    10
+    Answers
+
+    Design a system like friend's functionality in facebook. should have all features of facebook's friends functionality. like for each person , he can have any number of friends , he will get suggestions for new firends , showing common friends if we visits any other profile . algo should be scalable , robust .
+    - gopi.komanduri about a year ago in United States | Report Duplicate | Flag
+    Computer Scientist Algorithm Android Application / UI Design Arrays Bit Manipulation C# C++ Cache Coding Computer Architecture & Low Level Data Mining Data Structures Database Distributed Computing Dynamic Programming Hash Table Java Large Scale Computing Linked Lists Math & Computation Object Oriented Design Problem Solving Sorting SQL Stacks System Design Trees and Graphs XML
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    4
+    Answers
+
+    Context:
+    There's a network of computers. Each computer accepts connections at certain incoming port numbers and can make outgoing connections to a possibly different set of outgoing port numbers. Some computers are connected through cables to each other. Computer A can directly transmit data to computer B if and only if:
+    there is a direct cable connection between computer A and B,
+    there exists a port number X, that is an outgoing port on computer A and an incoming port on computer B.
+    Some of the computers are connected directly to the outside, unsafe network. If there is a way to connect to computer Z either directly or indirecly from the outside network, that computer Z is "at risk". If there is no way to connect to computer Z from outside network, that computer is "safe".
+    Question:
+    Write a program that given:
+    computers (each computer has incoming and outgoing port numbers),
+    cable connections between computers (a pair of computers),
+    computers accessible from outside network,
+    Print out all "safe” computers and all possible ways to access a specific computer from outside network.
+    - codercoder about a year ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    algorithm-interview-questions
+    0
+    of 2 votes
+    10
+    Answers
+
+    How to design a multi key hash map ( key count can be dynamic. if there are two keys , initiallly which can be used to find the value , keys can be increased to three as well ex: consider school structure. Intially , consider , student id is key , later , should be searchable even with key name , later with grade.
+    - gopi.komanduri about a year ago in India | Report Duplicate | Flag
+    Analyst Algorithm Arrays C# C++ Coding Data Structures Dynamic Programming Experience Hash Table Large Scale Computing Linked Lists Problem Solving Sorting Trees and Graphs
+    algorithm-interview-questions
+    1
+    of 3 votes
+    8
+    Answers
+
+    Design a telephone directory for large ppl (he gave example like design for India). fields will be , first name , last name , number . this should be searchable with first name , last name , number as welll.
+    later added more complexity like do the same for organisation where even it contains designations. so this should be searchable with designations.
+    - gopi.komanduri about a year ago in India | Report Duplicate | Flag
+    Analyst Algorithm Arrays C C++ Cache Coding Computer Architecture & Low Level Data Mining Data Structures Dynamic Programming Hash Table Ideas Large Scale Computing Linked Lists Object Oriented Design Problem Solving Trees and Graphs
+    facebook-interview-questions
+    5
+    of 5 votes
+    23
+    Answers
+
+    Given a self-balancing tree (AVL), code a method that returns the median.
+
+    (Median: the numerical value separating the higher half of a data sample from the lower half. Example: if the series is
+
+    2, 7, 4, 9, 1, 5, 8, 3, 6
+
+    then the median is 5.)
+    - Diego about a year ago in United States | Report Duplicate | Flag
+    Facebook iOS Developer Trees and Graphs
+    trees-and-graphs-interview-questions
+    -2
+    of 2 votes
+    4
+    Answers
+
+    How to draw graph for the given set
+    G={(4,6,0,7),(2,0,8,5),(12,3,0,0),(0,0,9,8)}
+    - chetna.1695 about a year ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    31
+    Answers
+
+    He asked me to print root to leaf path WITHOUT using recursion . I got stuck at it and used too much space according to him .
+    I constructed a visited array , path array and a stack .
+    Is there any other optimal algorithm ?
+    - !@# about a year ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Trees and Graphs
+    amazon-interview-questions
+    1
+    of 1 vote
+    10
+    Answers
+
+    a[] is an array containing elements of a BST .
+    2D array is given where arr[i][j] gives the root of the tree formed by taking elements from index i to j from a[] . construct the BST .
+    - rahul about a year ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Trees and Graphs
+    linkedin-interview-questions
+    0
+    of 0 votes
+    19
+    Answers
+
+    public interface FirstCommonAncestor {
+
+    /**
+    * Given two nodes of a tree,
+    * method should return the deepest common ancestor of those nodes.
+    *
+    * A
+    * / \
+    * B C
+    * / \ \
+    * D E M
+    * / \
+    * G F
+    *
+    * commonAncestor(D, F) = B
+    * commonAncestor(C, G) = A
+    */
+
+    public Node commonAncestor(Node nodeOne, Node nodeTwo)
+    {
+
+    }
+    }
+
+    class Node {
+
+    final Node parent;
+    final Node left;
+    final Node right;
+
+
+    public Node(Node parent, Node left, Node right, data) {
+    this.parent = parent;
+    this.left = left;
+    this.right = right;
+    this.data = data
+    }
+
+    boolean isRoot() {
+    return parent == null;
+    }
+    }
+    - gul2u about a year ago in United States | Report Duplicate | Flag
+    Linkedin Software Engineer / Developer Trees and Graphs
+    facebook-interview-questions
+    0
+    of 0 votes
+    8
+    Answers
+
+    An UIView A2 is subclassed from the same parent as an UIView A1.
+
+    Given inputs of A1, A2, and an UIView that is in the tree of UIViews of A1 somewhere, return the exact UIView that mirrors this in A2.
+
+    Example setup:
+
+    A1------------
+    | |
+    UIView UIView
+    |
+    UIView <-- Given this
+
+    A2------------
+    | |
+    UIView UIView
+    |
+    UIView <-- Find/return this
+    - valheru about a year ago in United States | Report Duplicate | Flag
+    Facebook iOS Developer Trees and Graphs
+    amazon-interview-questions
+    1
+    of 1 vote
+    15
+    Answers
+
+    Disconnect two nodes in a graph by removing minimum number of edges.
+    - hulk about a year ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    4
+    Answers
+
+    Given two stations at random, show all possible routes between those stations (if any)
+    - Stations links are listed below
+    - Links between stations are bi-directional
+    - Routes generated should not have cycles
+
+    cambridge<>stansted
+    stansted<> harlow
+    harlow<>london
+    london<>hatfield
+    hatfield<>peterborough
+    cambridge<>hatfield
+    cambridge<>ely
+    peterborough<>ely
+    peterborough<>birmingham
+    birmingham<>manchester
+    manchester<>glasgow
+    glasgow<>edinburgh
+    edinburgh<>newcastle
+    newcastle<>thirsk
+    thirsk<>york
+    york<>manchester
+    york<>peterborough
+    - static416 about a year ago in Canada | Report Duplicate | Flag
+    Software Engineer / Developer Trees and Graphs
+    facebook-interview-questions
+    2
+    of 4 votes
+    29
+    Answers
+
+    Given a Binary Tree (balanced or not) write a method that transforms the tree in a degenerate tree (basically a data structure like a sorted linked list where each node has the left child null) and returns the new root. This must be made in place, no external memory usage is allowed.
+    - Ray 2 years ago in United States | Report Duplicate | Flag
+    Facebook Software Engineer Intern Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    7
+    Answers
+
+    Write code to find the next least node in a binary search tree given a node?
+    - mav 2 years ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    flipkart-interview-questions
+    1
+    of 1 vote
+    11
+    Answers
+
+    One of the many ways of representing a tree is to have an array(of length same as number of nodes), where each element in the node denotes the parent of that node.
+    Eg -
+    {-1, 0, 0, 1, 1} would represent a tree with -
+    * 0 as root
+    * 1 and 2 as children of 0
+    * 3 and 4 as children of 1
+
+    Given a similar representation, you have to print reverse level order traversal of the corresponding tree.
+    Level order traversal of a tree is where we traverse levels of tree one by one.
+
+    Eg -
+    For the above given tree, level order traversal would be -
+    0
+    1 2
+    3 4
+    And hence, the reverse level order traversal is -
+    3 4
+    1 2
+    0
+    Please note -
+    * An element with parent = -1 is the root element.
+    * An element with the least index becomes the left most child. (ie. a node with always be on left of all its siblings that have higher index than it)
+    * When printing a level of tree you need to maintain left to right order.
+
+    Input Format -
+    First line of the input contains number of nodes in the tree (N)
+    Next line contains N (space seperated) numbers that denote where i-th number will denote the parent node of i-th node.
+
+    Output Format -
+    Print reverse level order traversal of the corresponding tree, with every new level starting in a different line.
+    Notes/Limits -
+    * 1 <= N <= 50
+    * There will be only one root element in any given test case
+    * Given numbers will always form a valid undivided tree
+    * Output should be in the exact format as specified (including whitespaces)
+    Sample Test Cases -
+    Input -
+    5
+    -1 0 0 2 1
+    Output -
+    4 3
+    1 2
+    0
+
+    Input -
+    9
+    8 7 0 5 5 8 7 0 -1
+    Output -
+    1 6
+    2 7 3 4
+    0 5
+    8
+    Input -
+    45
+    24 42 4 30 29 43 22 15 26 36 26 16 3 22 21 41 18 16 34 41 12 29 32 30 43 15 4 38 36 -1 24 42 18 6 21 38 6 17 32 17 3
+    34 12 14 14
+    Output -
+    1 31
+    20 42 9 28
+    12 40 33 36
+    3 23 37 39 6 13 27 35
+    0 30 11 17 22 38 7 25
+    5 24 16 32 15 19
+    8 10 43 44 18 41
+    2 26 14 34
+    4 21
+    29
+
+    Input -
+    33
+    17 25 0 14 7 2 5 25 18 8 16 27 10 9 19 7 31 31 19 0 8 14 9 17 18 2 30 16 30 10 5 -1 27
+    Output -
+    13 22
+    26 28 4 15 9 20
+    6 30 1 7 3 21 8 24
+    5 25 14 18
+    12 29 11 32 2 19
+    10 27 0 23
+    16 17
+    31
+    - avinash 2 years ago in India | Report Duplicate | Flag
+    Flipkart Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    19
+    Answers
+
+    Given a binary search tree of n nodes, find all the pair of nodes whose sum is equal to a given number k in O(n) time and constant space.
+    - MaveRick12 2 years ago in India | Report Duplicate | Flag 
+
+
+
+Trees and Graphs Interview Questions
+Page:
+1 2 3 4 5 6 7 8 9
+Filter:
+Sort By:
+Date | Number of Comments | Most Recent Comment | Votes
+
+    amazon-interview-questions
+    0
+    of 0 votes
+    12
+    Answers
+
+    Determine if a tree is a valid BST with no duplicated values. (This means that if the binary tree has a duplicated number it should return "invalid" even if it's an actual BST)
+
+    I gave an O(n) solution and interviewer seemed happy with it.
+    - meh 2 years ago in United States | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 2 votes
+    7
+    Answers
+
+    In the Amazon Office, Employees are use to sit in cubical offices and all the offices are connected with some other offices, but they are not arranged in any well defined order. Offices are connected means they are sharing their walls with other offices. There are two types of Employees in Amazon i.e. 'Testers' and 'Developers'. Manager of Amazon don't want any 'Tester' and 'Developer' to sit in nearby cubical office, it means there should not be any shared wall between two 'Testers'/'Developers'.
+
+    Input:- First line consist of an integer n, which is number of common walls.
+    Next n lines consist of 2 integers a and b, which represents the Office Number between which the wall is being shared.
+    Output: - Print 'Yes', if condition of the manager can be satisfied and print 'No' if not.
+
+    Example: -
+    1-2-3
+    |
+    4
+    Office number 2 is sharing its 3 walls with Office 1,3 & 4.....that is why if Office 2 has a 'Developer' than Office 1,3 & 4 cannot have any 'Developer'.
+
+    INPUT:-
+    3
+    1 2
+    2 3
+    2 4
+    Output: -
+    Yes
+
+    Any better approach then DFS i.e. O(V+E)..??
+    - vinod 2 years ago in India | Report Duplicate | Flag
+    Amazon Intern Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    15
+    Answers
+
+    Replace each node with the sum of all greater nodes in a given BST?
+    - vinod 2 years ago in India | Report Duplicate | Flag
+    Amazon Intern Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    8
+    Answers
+
+    Given a binary search tree whose nodes are integers, find the frequency of occurrence of each digit in the tree.tr
+    - xyz 2 years ago in United States | Report Duplicate | Flag
+    Amazon SDE1 Trees and Graphs
+    amazon-interview-questions
+    3
+    of 3 votes
+    28
+    Answers
+
+    Given a binary tree. Modify it in such a way that after modification you can have a preorder traversal of it using only right pointers. During modification you can use right as well as left pointers. Write complete code and dry run it for some test cases
+    - behinddwalls 2 years ago in India | Report Duplicate | Flag
+    Amazon SDE1 Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    14
+    Answers
+
+    Find cousins of a given node in a Binary tree and BST.
+
+    My Approach:
+
+    Steps:(Using level order Traversal)
+    1. Create a queue  q and en-queue root element and take variable qSize and a flag=true
+    2. Start a loop and check queue is empty or not
+        {
+          if qSize==0 then qSize=q.size();
+          if not flag then print the current queue (q)
+          Start one more loop and check for qSize>;0
+          {      qSize--
+                 x=deque();
+            if((x.left != null && x.left== key) || (x.right!= null && x.right== key))
+           {
+               flag=false
+               continue
+           }
+           enqueue(x.left)
+           enqueue(x.right)
+          }
+       }
+
+    - behinddwalls 2 years ago in United States | Report Duplicate | Flag
+    Amazon SDE1 Trees and Graphs
+    google-interview-questions
+    -5
+    of 7 votes
+    12
+    Answers
+
+    Given two Btrees. these trees "may" have right and left branches swapped. Now compare it
+    - Bee 2 years ago in United States | Report Duplicate | Flag
+    Google Software Engineer / Developer Trees and Graphs
+    directi-interview-questions
+    0
+    of 2 votes
+    7
+    Answers
+
+    Question 1 / 1 (Path Explosion EASY)
+    You were given a Binary Tree (not necessarily a Binary Search Tree) to play with, say T. T had some special properties
+
+    Each internal node in T had exactly 2 children
+    Each internal node in T was represented by an uppercase English alphabet (A-Z)
+    Each leaf node in T was represented by a lowercase English alphabet (a-z)
+    You were told remember T as long as you could. Hence, you memorised the string formed by traversing T in post-order. You used something similar to the pseudocode below
+
+    toPostOrderString (node)
+    if node is leaf
+    return node.value
+    else
+    T = ""
+    T = T + toPostOrderString(node.left)
+    T = T + toPostOrderString(node.right)
+    T = T + node.value
+    return T
+    Now, time has come to use that string again. The Eye has contacted you. Yes, the secret organisation mentioned in "Now you see me" ( don't tell anyone they are real !! )
+
+    You remember the string you memorised back then. You must reconstruct the binary tree T. You are also given a string A. All the characters of A are uppercase English alphabets. Let us assume that T has L leaves. Then, there will be exactly L paths from the root to the leaves - 1 unique path to each leaf.
+
+    You have to tell The Eye the number of paths out of L, on which, A exists as a sub-sequence. Look at the explanation for the Sample Case 1 for clarity.
+
+    You have to implement the method explodePaths in the code. explodePaths is passed the following parameters, respectively
+
+    N, the number of nodes in T
+    S, the string representation of the post-order traversal of T. Of course, the length of S will be equal to N.
+    K, the length of the string A
+    A, the string you must find in the paths from the root of T, to the leaves in T.
+    Note
+
+    It is not necessary that T is balanced. But, each internal node always has exactly 2 children. It is possible that both those children are internal nodes also. It is possible that only one of those children is an internal node.
+    For the given string S, because of the constraint that each internal node has exactly 2 children, you will always be able to determine the tree T, uniquely.
+    It is not necessary that all characters in T are unique. There may be several nodes with the same value.
+    In this problem statement, by sub-sequence we mean not necessarily contiguous. This is different from a sub-string.
+    Do not print the answer in explodePaths. Just return the value. The code-template interviewstreet provides does the input and output itself.
+    Consider the following tree
+
+    A
+    / \
+    t B
+    / \
+    / \
+    B A
+    / \ / \
+    x y a b
+    This tree is given in Sample Case 1 as
+
+    N = 9
+    S = "txyBabABA"
+    K = 2
+    A = "AA"
+    Now, there are 5 leaf nodes, and hence, 5 paths from the root to leaves - 1 for each leaf.
+
+    - A-t
+    - A-B-B-x
+    - A-B-B-y
+    - A-B-A-a
+    - A-B-A-b
+    Out of these 5 paths, you have to find the number of paths, on which "AA" exists as a sub-sequence. Of course, there are only 2 such paths
+
+    - A-B-A-a
+    - A-B-A-b
+    Hence the expected answer is 2.
+
+    In the same T above
+
+    The answer for A = "BB", is 2
+    The answer for A = "BA", is 2
+    The answer for A = "AB", is 4
+    The answer for K = 1 and A = "A", is 5
+    The answer for K = 1 and A = "B", is 4
+    The Sample Case 2 has a little more complicated T. The string S in Sample Case 2 is yeBgeuCBxAB.
+
+    Constraints
+
+    N ≤ 10000
+    K ≤ 100
+    ​The expected time complexity of the algorithm is O(N).
+    - MJRocks 2 years ago in India | Report Duplicate | Flag
+    Directi Software Engineer / Developer Trees and Graphs
+    nvidia-interview-questions
+    0
+    of 0 votes
+    11
+    Answers
+
+    Given set of N threads generate sum of all numbers in an array of known size M
+    - vik 2 years ago in United States | Report Duplicate | Flag
+    NVIDIA Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    2
+    of 2 votes
+    22
+    Answers
+
+    Question 1 / 3 (Odd even level difference)
+    You are given a function calcDifference which takes in the root pointer of a binary tree as it's input. Complete the function to return the sum of values of nodes at odd height - sum of values of node at even height. Consider the root node is at height 1
+
+    Sample Input:
+
+    Sample Output
+    -74
+
+    Explanation:
+    [ (1 + 4 + 5 + 6 + 7 ) ? (2 + 3 + 8 + 9 + 10 + 11 + 12 + 13 + 14 + 15) = -74 ]
+    - Harjit Singh 2 years ago in India for TCS | Report Duplicate | Flag
+    Amazon SDE1 Algorithm C++ Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    4
+    Answers
+
+    Given 2 quad-trees find the intersection of black-pixels.
+    - chandeepsingh85 2 years ago in United States | Report Duplicate | Flag
+    Google Software Engineer / Developer Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    4
+    Answers
+
+    Define a quad-tree for a black and white image. Count the number the of black pixels.
+    - chandeepsingh85 2 years ago in United States | Report Duplicate | Flag
+    Google Software Engineer / Developer Trees and Graphs
+    google-interview-questions
+    2
+    of 2 votes
+    20
+    Answers
+
+    You are given a grid, with points on the intersections (think a map of streets, people are standing on random corners). Write code to calculate the point on the grid that is the shortest distance from every point on the grid.
+    - chandeepsingh85 2 years ago in United States | Report Duplicate | Flag
+    Google Software Engineer / Developer Trees and Graphs
+    facebook-interview-questions
+    3
+    of 3 votes
+    34
+    Answers
+
+    We are given a set of integers with repeated occurences of elements. For Example, S={1,2,2}.
+    We need to print the power set of S ensuring that the repeated elements of the power set are printed only once.
+    For the above S, the power set will be {NULL, {1}, {2}, {2}, {1,2}, {1,2}, {2,2}, {1,2,2}}. So, as per the question requirements, we need to print {NULL, {1}, {2}, {1,2}, {2,2}, {1,2,2}}
+    - sc.shobhit 2 years ago in India | Report Duplicate | Flag
+    Facebook Intern Algorithm Coding Trees and Graphs
+    trees-and-graphs-interview-questions
+    -1
+    of 1 vote
+    15
+    Answers
+
+    write a program to find sum of any path from root to leaf such that the sum of all nodes along the PATH is max compared to all other path,,
+    - samy 2 years ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    vmware-inc-interview-questions
+    1
+    of 1 vote
+    10
+    Answers
+
+    You are given a sorted skewed binary tree. How can you create a binary search tree of minimum height from it?
+    - Saurabh Singhal 2 years ago in India | Report Duplicate | Flag
+    VMWare Inc Intern Data Structures Problem Solving Terminology & Trivia Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    19
+    Answers
+
+    Write a routine to verify if a given tree is a BST (Binary Search Tree).
+    - Eugene 2 years ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    goldman-sachs-interview-questions
+    2
+    of 2 votes
+    17
+    Answers
+
+    A standard chess knight (it moves in its standard way i.e. L shaped OR 2.5 moves) is sitting at the position a1 on an N x N chess board. What is the minimum number of moves it will take to reach the diagonally opposite corner?
+    P.S. - If it were a 8 x 8 chess board, the final destination for the knight would be h8
+    - Saurabh Singhal 2 years ago in India | Report Duplicate | Flag
+    Goldman Sachs Intern Algorithm Coding Data Structures Trees and Graphs
+    groupon-interview-questions
+    1
+    of 1 vote
+    9
+    Answers
+
+    Given a BST convert it into new Data Structure that satisfies following conditions:
+
+    1. every leaf node's left ptr point to its parent and right ptr points to the next leaf
+    2. every non leaf node's left ptr points to its parent and right ptr is NULL
+    3. return the head and print the new DS
+
+    example:
+    7
+    / \
+    5 9
+    / \ \
+    4 6 10
+
+    output:
+
+    head->4->5->7
+    |
+    ->6->5->7
+    |
+    ->10->9-7
+
+    with optimal time and space complexity
+    - saran 2 years ago in India | Report Duplicate | Flag
+    Groupon Intern Trees and Graphs
+    amazon-interview-questions
+    1
+    of 1 vote
+    11
+    Answers
+
+    create the mirror tree for the given BST, provided with the root node of the tree
+    - saran 2 years ago in United States | Report Duplicate | Flag
+    Amazon Intern Trees and Graphs
+    amazon-interview-questions
+    2
+    of 2 votes
+    18
+    Answers
+
+    WAP to create a mirror of a binary tree. Extend the code or write a new code if not possible to do mirroring at alternate levels . Here in the second part , if the two trees are placed in front of each other , then odd levels should be exact mirror as a whole and even levels should be exactly same . Then write the iterative version for the above codes.
+    - Kavish Dwivedi 2 years ago in India for Bangalore | Report Duplicate | Flag
+    Amazon SDE1 Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    13
+    Answers
+
+    consider a full tree.Every node at odd level has 3 children and every node at even level has 4 children. If root is at level one, derive number of nodes if the leaf nodes are at level k.
+    - theultimatevella 2 years ago in India | Report Duplicate | Flag
+    Trees and Graphs
+    amazon-interview-questions
+    0
+    of 4 votes
+    11
+    Answers
+
+    Construct a BST from inorder and preorder traversal string. Write code for it.
+    - yolo 2 years ago in India | Report Duplicate | Flag
+    Amazon SDE1 Trees and Graphs
+    amazon-interview-questions
+    -11
+    of 11 votes
+    17
+    Answers
+
+    Given a tree, verify if it contains a subtree.
+    - yolo 2 years ago in India | Report Duplicate | Flag
+    Amazon SDE1 Trees and Graphs
+    ebay-interview-questions
+    0
+    of 0 votes
+    19
+    Answers
+
+    Given a binary tree with each node having a pointer to its parent, Write a function that can find the immediate right neighbor of a given node. Don't use BFS.
+
+    Node* RightNeighbor(Node* node)
+
+    Note: Root of the tree is not given
+    - JSDUDE 2 years ago in United States | Report Duplicate | Flag
+    Ebay SDE1 Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    18
+    Answers
+
+    Write a program to check if one tree is a subtree of other or not.
+    - getprith 2 years ago in India | Report Duplicate | Flag
+    Applications Developer Trees and Graphs
+    google-interview-questions
+    1
+    of 1 vote
+    16
+    Answers
+
+    Given a family tree for a few generations for the entire population and two people write a routine that will find out if they are blood related. Siblings are blood related since they have the same parents. Cousins are blood related since one of their parents have the same parents etc. Design the data structure first and then write the routine.
+    - hsantosh71 2 years ago in United States | Report Duplicate | Flag
+    Google Software Engineer / Developer Trees and Graphs
+    ebay-interview-questions
+    0
+    of 0 votes
+    8
+    Answers
+
+    N nodes, each node consists of a couple fields and methods. These are:
+
+    int id; //every node has an ID. All of these IDs are sequential, and begin with 0. I.e. all ids are uniquely in the range of 0 t N-1
+    int val; //every node has a value
+    int max; //max = N. Every node knows how many nodes are in the system.
+
+    void send(int idTo, int payload)
+    int recv(int idFrom)
+
+    Write a single piece of code which runs on every node simultaneously, such that when it is finished running every node in the system knows the sum of the values of all the nodes in the system.
+    - JSDUDE 2 years ago in United States | Report Duplicate | Flag
+    Ebay Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    5
+    of 5 votes
+    29
+    Answers
+
+    Given a binary tree.
+    Print nodes of extreme corners of each level but in alternate order.
+
+    10
+              5             11
+           9     20   -          15
+       14    - -     -         25
+                                       30
+
+    then output should be 10,11,9,25,30
+    left most of 0th level
+    right most of 1st level
+    left most of 2nd level
+    & like this
+    - saurabh 2 years ago in India | Report Duplicate | Flag
+    Amazon Senior Software Development Engineer Algorithm Trees and Graphs
+    mentor-graphics-interview-questions
+    -5
+    of 7 votes
+    14
+    Answers
+
+    need to implement a weather report functionality. user will provide the city name , need to return the weather report.
+    if weather station exists n functioning properly , will return the weather report of that station .
+    else ,
+    will return the nearest available weather station report.
+    interviewer looking for optimized manner.
+    looking for datastructures to stores the cities n algo to return the report.
+
+
+
+
+Trees and Graphs Interview Questions
+Page:
+1 2 3 4 5 6 7 8 9
+Filter:
+Sort By:
+Date | Number of Comments | Most Recent Comment | Votes
+
+    vmware-inc-interview-questions
+    0
+    of 0 votes
+    20
+    Answers
+
+    Max distance between two nodes of binary tree. Distance is # of branches.
+    - Huwanda 2 years ago in United States | Report Duplicate | Flag
+    VMWare Inc Member Technical Staff Algorithm Data Structures Trees and Graphs
+    vmware-inc-interview-questions
+    0
+    of 0 votes
+    11
+    Answers
+
+    write a program to serialize and deserialize a Binary tree
+    - VJ 2 years ago in India | Report Duplicate | Flag
+    VMWare Inc Member Technical Staff Algorithm Arrays Data Structures Trees and Graphs
+    vmware-inc-interview-questions
+    0
+    of 0 votes
+    10
+    Answers
+
+    write a program to return the highest value from a binary tree (note: not BST)
+    - VJ 2 years ago in India | Report Duplicate | Flag
+    VMWare Inc Member Technical Staff Algorithm Data Structures Trees and Graphs
+    vmware-inc-interview-questions
+    0
+    of 0 votes
+    8
+    Answers
+
+    write a program to validate a BST and state the complexity (assume payload is integer values)
+    - VJ 2 years ago in India | Report Duplicate | Flag
+    VMWare Inc Member Technical Staff Algorithm Data Structures Trees and Graphs
+    microsoft-interview-questions
+    2
+    of 2 votes
+    40
+    Answers
+
+    Given a binary tree, print its perimeter:
+
+    node, left->most nodes from top to bottom, leaf nodes from left-> right, right->most nodes from bottom to top
+
+    ----------------------------1
+    -----------------------2--------3
+    ------------------4-----5-----6--------7
+    -------------8------9-----10------11-----12
+
+    should print:
+    1-2-4-8-9-5-10-11-12-7-3
+
+    5 because it doesn't have any children. 10 and 11 are children of 6 and 8 & 9 are children of 4.
+    Apologies for the messy diagram.
+    - JSDUDE 2 years ago in United States | Report Duplicate | Flag
+    Microsoft SDE1 Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    21
+    Answers
+
+    Given a Binary tree and a node, return it's post-order predecessor
+    - JSDUDE 2 years ago in United States | Report Duplicate | Flag
+    Microsoft SDE1 Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    17
+    Answers
+
+    Given a BT and 2 nodes, find LowestCommonAncestor
+    - JSDUDE 2 years ago in United States | Report Duplicate | Flag
+    Microsoft SDE1 Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    6
+    Answers
+
+    Implement:
+    1. a search that will return all the strings that match a sub-string
+    2. an insert into this datastructure
+
+    Class
+    {
+    	Insert (string str){};
+    	List<strings> Predictions(string subString){};
+    }
+
+    - JSDUDE 2 years ago in United States | Report Duplicate | Flag
+    Amazon SDE1 Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    11
+    Answers
+
+    Implement an iterator for a Binary tree. It should have the following things:
+    1. bool HasNext()
+    2. <T> Next()
+
+    It should be an in-order traversal.
+    - JSDUDE 2 years ago in United States | Report Duplicate | Flag
+    Amazon SDE1 Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    17
+    Answers
+
+    Given a BST find Ceiling value of given key
+
+    8
+                      6     12
+                    2   4 11    14
+
+    key = 8 return 11
+    key = 1 return 2
+    key = 16 return Null
+
+    Iteration and Recursion both
+    - JSDUDE 2 years ago in United States | Report Duplicate | Flag
+    Microsoft SDE1 Trees and Graphs
+    microsoft-interview-questions
+    1
+    of 1 vote
+    18
+    Answers
+
+    Q:
+    Given a binary tree with nodes that have left, right pointers pointing to the left and right children respoectively. It also has a neighbor pointer that currently Points to null.
+    Write a function to make it point to its neighbor.
+
+    E.g
+
+    1
+                   2      3
+                4     5 6     7
+
+    1.sibling should point to null
+    2.sibling should point to 3
+    3.sibling should point to null
+    4.sibling should point to 5
+    5.sibling should point to 6
+    6.sibling should point to 7
+    7.sibling should point to null
+
+    Iteration and Recursion both
+    - JSDUDE 2 years ago in United States | Report Duplicate | Flag
+    Microsoft SDE1 Trees and Graphs
+    amazon-interview-questions
+    5
+    of 5 votes
+    34
+    Answers
+
+    Given a binary tree. Write a function that takes only root node as arguement and returns (sum of values at odd height)-(sum of values at even height).
+    - Dinesh 3 years ago in India | Report Duplicate | Flag
+    Amazon SDE1 Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    22
+    Answers
+
+    how to find lowest common ancestor of a binary tree
+    ??
+    not BST
+    - xxx 3 years ago in United States | Report Duplicate | Flag
+    Amazon Intern Trees and Graphs
+    microsoft-interview-questions
+    2
+    of 4 votes
+    47
+    Answers
+
+    Given a binary tree return the level with maximum number of nodes
+
+    1
+           / \
+          2   3
+          /\  /\
+         4 5 6 7
+        /       \
+       8         9
+
+    - ruddermechanic 3 years ago in United States | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    bloomberg-lp-interview-questions
+    0
+    of 0 votes
+    10
+    Answers
+
+    Find max depth of a binary tree
+    - andrew 3 years ago in United States | Report Duplicate | Flag
+    Bloomberg LP Financial Software Developer Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    0
+    Answers
+
+    1. Write a program to return a max BST within a given B-tree
+    - A 3 years ago in United States | Report Duplicate | Flag
+    Intern Trees and Graphs
+    microsoft-interview-questions
+    1
+    of 1 vote
+    23
+    Answers
+
+    Given a binary tree, find a binary search tree which is a subtree of the given binary tree and has the largest size?
+
+    Note : Here size means the no. of nodes and the binary tree can have more than one B.S.T. as its subtree.
+    - Ashish 3 years ago in India | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    22
+    Answers
+
+    Find the 2nd largest element in a binary search tree
+    - v.shah7689 3 years ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    10
+    Answers
+
+    Change the structure of a Tree node to hold a pointer for the next in-order element (sucessor).
+
+    Given a Binary Search Tree.. transform it on a LinkedList by setting the next pointer described above.
+
+    Maybe this is a duplicate question.
+    - rodrigoreis22 3 years ago in United States | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    wallmart-research-labs-interview-questions
+    0
+    of 0 votes
+    24
+    Answers
+
+    given a binary tree and a leaf node.
+    holding that leaf node and whole tree falls down such that it is the new root of the tree.
+    return the modified tree.
+    - geekykid 3 years ago in India | Report Duplicate | Flag
+    Walmart Labs Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    1
+    of 1 vote
+    16
+    Answers
+
+    Find if the given two trees can be joined leaf to leaf?
+    - beginner99 3 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 2 votes
+    16
+    Answers
+
+    Round 3 :
+    Q 6 : You are given a ternary tree (a tree with 3 children at max with left, middle, right pointer at each node), create a singly linked list from it without using extra space ?
+    - sonesh 3 years ago in India | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Algorithm Data Structures Linked Lists Trees and Graphs
+    microsoft-interview-questions
+    2
+    of 2 votes
+    42
+    Answers
+
+    Round 3 :
+    Q 5 : You are given a binary search tree, and a value(data item), you need to tell the left most right cousin in as minimum time and as minimum space ?(need to minimize actual time complexity, he need minimum order of complexity as well as number of node access should be minimum)
+    - sonesh 3 years ago in India | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Algorithm Data Structures Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    32
+    Answers
+
+    Round 2 :
+    Q 3 : you are given some nodes, and for each node a probability is given which will tell its importance, you need to design an efficient data structure such that the expected search time as minimum as possible. (Hint : Use dynamic programming + binary tree).
+    - sonesh 3 years ago in India | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Algorithm Dynamic Programming Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    7
+    Answers
+
+    Round 2 :
+    Q 2 : You are given finitely many intervals in 1D, you have to design a data structure an efficient data structure which can answer queries of the form “In how many intervals the point P belong ?”, P is an input point, and all intervals are closed. I answer B tree(think why) which is most efficient.
+    - sonesh 3 years ago in India | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Algorithm Data Structures Dynamic Programming Probability Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    13
+    Answers
+
+    Round 1 :
+    Q 1 : When you visit on your friend’s Facebook profile, there is a mutual friend section where common friends are listed, now let’s assume that your friend do the same thing, he/she visit his/her friend other then you, now the people other than common are connected to you by distance of two. Similarly think you are given two people on Facebook, how do you find this connectivity?. (Please give appropriate solution),
+
+    Now let’s think that some important people are given some weight(any), now do the same thing ?
+
+    Now calculate the most influential person? (Not an easy question, because of weights) ?
+    - sonesh 3 years ago in India | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Algorithm Data Mining Data Structures Trees and Graphs
+    ibibo-interview-questions
+    0
+    of 0 votes
+    24
+    Answers
+
+    In a BST, write a function to find two nodes whose sum is equal to a given integer 'k'.
+    - Nitin 3 years ago in India | Report Duplicate | Flag
+    Ibibo Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    15
+    Answers
+
+    Tree with black and white nodes is given. Find a longest path of white nodes in the given tree.
+    - cynic.vader 3 years ago in United States | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    13
+    Answers
+
+    Just came from interview. The interviewer asked me this question: copy tree with unlimited number of children with breadth fist search...
+    - Laasssfvfd 3 years ago in United States | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Trees and Graphs
+    groupon-interview-questions
+    0
+    of 0 votes
+    18
+    Answers
+
+    Print Level order traversal of a binary tree in reverse way.
+    If tree is 1
+    / \
+    2 3
+    / \ / \
+    4 5 6 7
+    Output will be 4 5 6 7 2 3 1
+    - Muqthi 3 years ago in India | Report Duplicate | Flag
+
+
+
+Trees and Graphs Interview Questions
+Page:
+1 2 3 4 5 6 7 8 9
+Filter:
+Sort By:
+Date | Number of Comments | Most Recent Comment | Votes
+
+    amazon-interview-questions
+    0
+    of 0 votes
+    41
+    Answers
+
+    Give a BST and a number. we need to find next bigger number in BST.
+    - Harsh Maheshwari 3 years ago in India for Kindle | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Data Structures Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    16
+    Answers
+
+    If a key has to be inserted in binary tree, say the value of root as well as the key to be inserted as same. Will the key becomes left child or right child of Root? Can binary tree have duplicate values? If yes, why, If no why?
+    - sivaji8 3 years ago in United States | Report Duplicate | Flag
+    Google Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    36
+    Answers
+
+    Write an algorithm to print out how many extra duplicates there are in a binary search tree.
+
+    input 1:
+
+    2
+    / \
+    1 2
+
+    output 1:
+    2 1
+
+
+    input 2:
+
+    3
+    / \
+    2 3
+    / \ \
+    1 2 4
+    / \
+    3 4
+    \
+    5
+    \
+    5
+
+    output 2:
+
+    2 1
+    3 2
+    4 1
+    5 1
+
+    Given:
+    Node {
+    int value;
+    Node left;
+    Node right;
+    }
+    - sjs3 3 years ago in United States for amazon local | Report Duplicate | Flag
+    Amazon Trees and Graphs
+    wallmart-research-labs-interview-questions
+    0
+    of 0 votes
+    25
+    Answers
+
+    Longest posibble path in a tree, you had to return the end leaf nodes.
+
+    geeksforgeeks(dot)org/diameter-of-a-binary-tree/
+    - kingKode 3 years ago in United States | Report Duplicate | Flag
+    Walmart Labs Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    37
+    Answers
+
+    Print a binary tree in vertical.
+
+    e.g.,
+
+    1
+    / \
+    2 3
+    / /
+    4 5
+    \
+    6
+
+    o/p: 4 2 1 5 3 6
+    - kaushikdev9 3 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    salse-force-interview-questions
+    0
+    of 0 votes
+    11
+    Answers
+
+    Write the recursive implementation of DFS and BFS for an n-ary tree. Tree node has an int data item, and a linked list "children" of nodes.
+    - CartmanIncarnate 3 years ago in United States | Report Duplicate | Flag
+    Salesforce Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    18
+    Answers
+
+    Find the first common ancestor of two nodes in a binary tree (note not a BST).
+    - singhSahab 3 years ago in India | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    7
+    Answers
+
+    Find the k'th shortest path between two given nodes of a graph
+    - anandaroop.acharia 3 years ago in India | Report Duplicate | Flag
+    Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    25
+    Answers
+
+    Write a non-recursive function to delete an entire binary tree.
+    - william.buss343 3 years ago in United States | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    10
+    Answers
+
+    Given a binary tree:
+    1
+    / \
+    2 6
+    / \ \
+    3 4 7
+    /
+    5
+
+    Given the pre-order, in-order traversals of the tree, reconstruct the tree.
+    - william.buss343 3 years ago in United States | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    2
+    of 2 votes
+    33
+    Answers
+
+    two BST are given find common elements in both....
+    - abhishek 3 years ago in India for idc | Report Duplicate | Flag
+    Microsoft Intern Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    34
+    Answers
+
+    Two elements of BST are swapped by mistake. You have to restore the tree without changing its structure.
+    - Nascent 3 years ago in India | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    32
+    Answers
+
+    Given a binary tree and 3 nodes x,y,z, write a function which returns true if y lies in the path between x and z and false otherwise. Its been posted couple of times in past in careercup blogs, still couldn't find an apt solution which considers corner cases like
+    y
+    / \
+    z x
+    - novice12 3 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    43
+    Answers
+
+    Given two trees, how do you find one of the tree is a subtree of other?
+    - hari@hbiz.in 3 years ago in India | Report Duplicate | Flag
+    Amazon Software Development Manager Algorithm Data Structures Trees and Graphs
+    amazon-interview-questions
+    1
+    of 1 vote
+    78
+    Answers
+
+    You are a hunter in the forest. A monkey is in the trees, but you don't know where and you can't see it. You can shoot at the trees, you have unlimited ammunition. Immediately after you shoot at a tree, if the monkey was in the tree, he falls and you win. If the monkey was not in the tree, he jumps (randomly) to an adjacent tree (he has to).
+
+    Find an algorithm to get the monkey in the fewest shots possible.
+    - Glude 3 years ago in United States | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    34
+    Answers
+
+    Given the Pre-order of the BST .check if each non-leaf node has only one child.Linear Time is expected.
+    - grave 3 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    18
+    Answers
+
+    Convert a binary search tree into doubly linked list in sorted order in place.
+    - bond 3 years ago in India for hyd | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    14
+    Answers
+
+    Given a Binary tree,find the level at which the tree is complete.Complete Binary tree-All leaves should be at same level and every internal node should have two children.
+    Asked to write both Recursive and iterative code.
+    - grave 3 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    15
+    Answers
+
+    Create the n-ary tree from the ancestor matrix.
+    matrix[i][j]=1 if i is the ancestor of j.
+    My answer-
+    find the root (row with all zeroes).
+    Set the column with a[i][root] =0
+    find all the rows with all zeroes.insert into the tree all the children.and push all into the queue.
+    pop and find the children ,insert into the tree with popped node as parent and push into the queue.
+    Can not implement properly as it needed some modifications.
+    This is asked from my friend at amazon bangalore.
+    - grave 3 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Arrays Data Structures Trees and Graphs
+    amazon-interview-questions
+    1
+    of 1 vote
+    37
+    Answers
+
+    Given an array which contains the parent of the ith element in the n-ary tree.Parent[i] = -1 for root.
+    Find the height of the tree.
+    Gave O(n2) ,space O(1).
+    Expected Complexity- Linear
+    You can use extra space if you want.
+    Example-
+    {-1 0 1 6 6 0 0 2 7}
+    0 1 2 3 4 5 6 7 8
+    0 is the root here.
+    0 is the parent of 1 5 6
+    1 is parnt of 2
+    6 is parent of 3 4
+    2 is of 7 which is parent of 8.
+    - grave 3 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Data Structures Hash Table Trees and Graphs
+    lunatic-server-solutions-interview-questions
+    0
+    of 0 votes
+    0
+    Answers
+
+    lunatic server solution is monitoring the wrong file entry in the server.
+    so company made another a problem for it to monitor AVL tree violation.
+    The problem should be solved in java...
+    problem states that...
+
+
+    This problem requires you to monitor a tree for violation of the AVL balance criteria as the tree is being
+    constructed.
+    The input to the program consists of a sequence of numbers. As you read in each number, check where the
+    node is going to be inserted into the current tree. [At the start, the tree is empty.] If that insertion can cause
+    the balance of any of the nodes in the tree to go beyond what is allowed by the AVL criteria, DO NOT add
+    the number into the tree. Instead, print out the number into the standard output. Numbers which retain the
+    AVL property of the tree should be added to the tree at the appropriate place as per the method discussed in
+    class. Continue with the remaining numbers. Please note that you do not have to do any balancing of the
+    tree! The input is terminated by –1.
+    The output from the program consists of the numbers rejected by the program. At the end, you should also
+    print out the count of such numbers rejected.
+    Hint: It would help to keep the height of the left and right subtrees of each node along with the node. Also
+    note that the process of checking for violation and actually inserting are quite similar; in the former case you
+    do not update anything but do everything else. This observation can be used to write the code.
+    Sample Input/Output
+    Input
+    3 5 1 6 2 4 9 7 -1
+    Output
+    7 1
+    (This means rejected key(s) are: key 7, totally 1 rejected key)
+    - PriyaDarad 3 years ago in United States | Report Duplicate | Flag
+    Lunatic Server Solutions Developer Program Engineer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    44
+    Answers
+
+    Find the(two) nodes which are at maximum distance in a binary tree?
+    This is not finding the distance but the nodes which are farthest.
+    - grave 3 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Data Structures Trees and Graphs
+    sap-labs-interview-questions
+    0
+    of 0 votes
+    3
+    Answers
+
+    The second round interview: Implement a binary tree with the given interface, then discuss the implementation via remote desktop and phone.
+
+    /*
+     * An interface for an sorted binary tree.
+     * 
+     * The interface provides methods for inserting values, checking if certain values are contained and iterating over the elements.
+     * Note: Implementing classes should provide an iterator that traverse the inserted object in the sorted order.
+     */
+    public interface IBinTree<V extends Comparable<V>> extends Iterable<V> {
+    	/*
+    	 * Insert an object into the binary tree. Note: The tree should be sorted, inserting the same object twice is allowed but the insert is expected to be stable.
+    	 */
+    	void insert(V obj);
+    	/*
+    	 * Batch-insert multiple elements.
+    	 */
+    	void insert(Vector<V> vec);
+    	/*
+    	 * Check if the object is already in the tree. Return true if it is, false otherwise. 
+    	 */
+    	boolean contains(V obj);
+    }
+
+    - groupme 3 years ago in United States for Potsdam | Report Duplicate | Flag
+    Sap Labs Developer Program Engineer Trees and Graphs
+    inmobi-interview-questions
+    0
+    of 0 votes
+    0
+    Answers
+
+    Write a java program to do the breadth first search of a graph.
+    - get.santhoshkrishna 3 years ago in United States | Report Duplicate | Flag
+    InMobi Java Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    23
+    Answers
+
+    Given a BST. Replace the node value with the sum of all the node values that are greater than the current node value.
+    - santosh11900 3 years ago in United States for hyderabad | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    51
+    Answers
+
+    Given a BST, convert it so that each node has value equal to sum of all the nodes (including itself) which are greater than that node in the whole tree.
+    - kehkelunga 3 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    11
+    Answers
+
+    Given an n-ary tree, find the closest common ancestor ? Discuss the time complexity and write testcases.
+    - ps 3 years ago in United States | Report Duplicate | Flag
+    Microsoft Software Engineer in Test Trees and Graphs
+    google-interview-questions
+    1
+    of 1 vote
+    62
+    Answers
+
+    Given a dictionary of strings [ strings are in sorted order] you have to find the precedence of characters according to the dictionary..
+    eat
+    bxy
+    e is ranked above b according to the dictionary.
+    - Anton 3 years ago in India | Report Duplicate | Flag
+    Google Amazon Software Engineer / Developer Algorithm Data Structures Trees and Graphs Brain Teasers
+    adobe-interview-questions
+    0
+    of 0 votes
+    26
+    Answers
+
+    Write a code to find out whether the given sum exists over any path in binary tree. Should return true or false.
+    - shooter 3 years ago in India | Report Duplicate | Flag
+    Adobe Java Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    38
+    Answers
+
+    Given a binary tree, every node has a int value, return the root node of subtree with the largest sum up value. Java is more preferable. Caution: the return should be a node, not a integer!
+    - CreepyMan 4 years ago in United States | Report Duplicate | Flag  
+
+
+
+Trees and Graphs Interview Questions
+Page:
+1 2 3 4 5 6 7 8 9
+Filter:
+Sort By:
+Date | Number of Comments | Most Recent Comment | Votes
+
+    amazon-interview-questions
+    0
+    of 0 votes
+    17
+    Answers
+
+    Convert a BST to sorted doubly linked list.
+    - y2km11 4 years ago in India | Report Duplicate | Flag
+    Amazon Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    31
+    Answers
+
+    Write a method to create new tree with same structure but the values of each node will be sum of their descendents (sub tree). The leaf nodes will become 0. So if the tree is 50 30 10 40 60 55 75 (PreOrder) then new tree should be 270 50 0 0 130 0 0(PreOrder)
+    - sk 4 years ago in United States for AWSP | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    adobe-interview-questions
+    0
+    of 0 votes
+    14
+    Answers
+
+    Do a merge of two binary trees and tell what the complexity of the merging is. The trees consist of m and n nodes respect.
+    - nihaldps 4 years ago in India | Report Duplicate | Flag
+    Adobe Computer Scientist Trees and Graphs
+    adobe-interview-questions
+    0
+    of 0 votes
+    27
+    Answers
+
+    Given a graph (consider it to be a mxn grid). The nodes are node of a binary tree with left and right pointers. The start point (A) is at the left upper corner and the end point (B) is at right bottom corner. Each node points to its adjacent nodes in the grid (the right pointer points to the node on the right and the left points to the node just below it). The nodes at the lower and right edges will have child as null (right null for the right side edge and left null for the bottom edge). The end node at B is having both as null.
+
+    How many paths are possible which can lead you to B, if you start from A?
+    - nihaldps 4 years ago in India | Report Duplicate | Flag
+    Adobe Computer Scientist Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    8
+    Answers
+
+    Construct a Cartesian tree from in order traversal
+    - anonymus 4 years ago in United States | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    57
+    Answers
+
+    Given (i) a non-empty binary search tree with double values (e.g. 3.5) in each node and (ii) a key value K
+
+    Write a method to find the closest value to K.
+    - mihirk 4 years ago in United States | Report Duplicate | Flag
+    Google Software Engineer / Developer Algorithm Coding Data Structures Java Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    34
+    Answers
+
+    You are given a function printKDistanceNodes which takes in a root node of a binary tree, a start node and an integer K. Complete the function to print the value of all the nodes (one-per-line) which are a K distance from the given start node in sorted order. Distance can be upwards or downwards.
+    - Novice Coder 4 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    16
+    Answers
+
+    Find the density of the given binary tree
+    - Umar 4 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer in Test Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    23
+    Answers
+
+    Flatten a binary tree in the its inorder traversal form. Example if there is a tree like
+    01
+    0203
+    04050607
+
+    Flatten it to 04->02->05->01->06->03->07
+    Right of 4 should be pointing to 02 and so on.
+    The order is inorder traversal order
+    I was asked to use Recursion
+    PLease can some one post C# code for this.
+    - Dee 4 years ago in United States | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    -1
+    of 1 vote
+    18
+    Answers
+
+    GIven a binary tree, print the tree according to the level.
+    eg
+    01
+    0203
+    04050607
+    0809101112131415
+    proceed further to find the mirror image of alternate level
+    01
+    0203
+    07060504
+    0809101112131415
+    - gupta 4 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Algorithm Data Structures Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    16
+    Answers
+
+    Print all the paths from the root to the leaf in a tree
+    - rahulm 4 years ago in United States for RCX | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    8
+    Answers
+
+    Given a sorted array, construct a balanced BST.
+    - rahulm 4 years ago in United States for RCX | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    5
+    Answers
+
+    Given a binary tree where each node contains an integer value and a value k, print all paths which sum upto this value k
+    - rahulm 4 years ago in United States for RCX | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    32
+    Answers
+
+    Given the head of a Binary Search tree, trim the tree, so that all elements in the new tree returned are between the inputs A and B
+    - topcoder99 4 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    4
+    Answers
+
+    Average of Nodes in tree.
+    - racejakebannon 4 years ago in United States | Report Duplicate | Flag
+    Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    32
+    Answers
+
+    Given a BST and two values m and n . We need to find out all the nodes whose values are in range of m and n .
+    - raiprince001 4 years ago in India for Bing | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    37
+    Answers
+
+    Given a Binary tree where nodes may have positive or negative value, store the sum of the left and right subtree in the nodes.
+
+    Eg-
+
+    10
+       -2        6
+    8    -4    7    5
+
+    Output:
+
+    20(-2+6+4+12)
+       4(8-4)    12(7+5)
+     0    0    0    0
+
+    - Puzzle 4 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer in Test Trees and Graphs Data Structures
+    amazon-interview-questions
+    0
+    of 0 votes
+    3
+    Answers
+
+    To build a tree expression - (1 +3) * 4 - all numbers and operators are nodes in a tree. Was a reversal tree I guess....wrote my custom logic
+    - ashishdaga1 4 years ago in United States for General | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    20
+    Answers
+
+    Question 2)
+
+    Given a binary tree which contains values at each node , find whether the path exist from root to the "LEAF NODE" such that sum of the values of d path nodes is equal to the GIVEN SUM. if so return true or else return false
+    - msankith 4 years ago in India | Report Duplicate | Flag
+    Microsoft Developer Program Engineer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    18
+    Answers
+
+    Given a BST find the kth largest element in the BST with single traversal and without using any extra space.
+    - erarpitagarwal 4 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    10
+    Answers
+
+    A binary tree is given we need to print vertical sums of nodes. for example
+
+    1    2      3        4     5
+
+      |      |       5        |     |
+      |      |     / |       \ |     |
+      |      |   /   |        8     |
+      |      | /     |       / |    \|
+      |      4      |    /    |   10
+      |    / |  \    9        |     |
+      |  /   |      \          |     |
+      7     |      6               |
+      |      |      |          |     |
+      |      |      |          |     |
+      -----------------------------------------------
+      7     4     20       8   10
+
+    Here we need to print sum 7,4,20,8,10.
+    - sumanth.nitw 4 years ago in United States | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    11
+    Answers
+
+    Convert a binary search tree to a sorted doubly linked list in O(n) time and in place. Manipulate the existing tree. Donot create a new tree.
+    - python.c.madhav 4 years ago in India | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Data Structures Trees and Graphs Algorithm
+    flipkart-interview-questions
+    0
+    of 0 votes
+    12
+    Answers
+
+    Given a Binary tree and a pointer to some node in the tree, find the left and right neighbors of the input node. The neighbor nodes are on the same level/depth as of input node.
+
+    Don't use BFS/level order traversal.
+    There is no parent pointer.
+    - Saurabh 4 years ago in India | Report Duplicate | Flag
+    Flipkart Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    1
+    of 1 vote
+    70
+    Answers
+
+    Find if a binary tree is bst
+    - anonym 4 years ago in - | Report Duplicate | Flag
+    Amazon Flipkart Groupon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    25
+    Answers
+
+    You are given a binary tree that has many binary search trees as subtrees. Find the largest (in terms of nodes) binary search tree (subtree). You are given the root node to binary tree. (Binary tree is different from binary search tree).
+    - takiisc 4 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    19
+    Answers
+
+    How can you merge two BST inplace so that preserving the BST property?
+
+    Provide algo only, dont write code
+    - learner 4 years ago in India | Report Duplicate | Flag
+    Google Software Engineer in Test Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    32
+    Answers
+
+    give a binary tree (not BST)where tree node, with extra pointer inorder-successor, initaliy all inorder-successor pointer set to NULL.
+    write a code to set all pointer to its inordersuccessor.
+    struct Node
+    {
+    int data;
+    Node *left, *right;
+    Node *successor;
+    };
+    - jayesh30785 4 years ago in India | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Data Structures Trees and Graphs Algorithm
+    amazon-interview-questions
+    0
+    of 0 votes
+    22
+    Answers
+
+    How will u check whether a given tree is symmetric with structure wise not with the data.....
+
+    ex:
+    Symmetric structure wise
+
+    5
+              /   \
+             3    9 
+             \   /
+             4  8
+
+    Not symmetric
+
+    5
+              /  \
+             5    9 
+            /     /
+           3     8
+
+    - sekhar740 4 years ago in - | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    3
+    Answers
+
+    Q2:Implement T9 moblie phone dictionary .But the problem was just to find all the posible outputs given the the sequence of key pressed.
+
+    My Solution :Recursion
+
+    private static String[] mapping = { "ABC", "DEF", "GHI", "JKL", "MNO",
+    "PQR", "STU", "VW", "XY", "Z*#" };
+
+    public static void combinations(int[] number, char[] buf, int numIndex) {
+
+    for (int i = 0; i < mapping[number[numIndex]].length(); i++) {
+    buf[numIndex] = mapping[number[numIndex]].charAt(i);
+    if (numIndex < number.length - 1) {
+    combinations(number, buf, numIndex + 1);
+    } else
+    System.out.println(buf);
+    }
+
+    }
+
+    public static void main(String[] args) {
+    int num[] = { 0, 1};// { 4, 8, 5, 9, 0, 3, 1, 7,6,2 };
+    PhoneBook.combinations(num, new char[num.length], 0);
+    }
+
+    He was looking for Trie data structure :(
+    - tylerDurden 4 years ago in India for Data Storage | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    adobe-interview-questions
+    0
+    of 0 votes
+    8
+    Answers
+
+    Lowest common ancestor of bst
+    After that modified it for binary tree
+    - dheeraj2311 4 years ago | Report Duplicate | Flag 
+
+
+
+Trees and Graphs Interview Questions
+Page:
+1 2 3 4 5 6 7 8 9
+Filter:
+Sort By:
+Date | Number of Comments | Most Recent Comment | Votes
+
+    chronus-interview-questions
+    0
+    of 0 votes
+    6
+    Answers
+
+    Given a binary tree we have to update another pointer sibling in the node such that every node sibling is the left node of current node.If there is no left node then its sibling should point to the right most node at that level...!!
+    - keerthy 4 years ago | Report Duplicate | Flag
+    Chronus Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    16
+    Answers
+
+    Given a Binary Tree ( Comprising of +ve & -ve numbers ), represent each node of the tree with sum of its LeftSubTree & RightSubTree
+
+    For Example :-
+
+
+    10 | 20
+    -2 6 | 4 12
+    8 -4 7 5 | 8 -4 7 5
+    - S.K.S Harsha 4 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    9
+    Answers
+
+    Given a Binary Tree, Convert it into Doubly Linked List where the nodes are represented Spirally.
+
+    For Example :-
+
+    A
+    B C ----> ABCGED || ACBDEG
+    D E G
+    - S.K.S Harsha 4 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    9
+    Answers
+
+    Find the element closest to a given input element in a BST
+    - fountain 4 years ago in United States for SCVMM (Server tools) | Report Duplicate | Flag
+    Microsoft Software Engineer in Test Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    9
+    Answers
+
+    Written Round1: To get mirror image of a binary tree.
+    - vicky 4 years ago | Report Duplicate | Flag
+    Amazon Developer Program Engineer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    17
+    Answers
+
+    Round1: Q1
+    Find the vertical sum in a binary tree.
+    Input:
+    (Plz construct the tree using the pre-order and in-order traversals)
+    Pre-order: 1 2 4 5 3 6 7
+    In-order: 4 2 5 1 6 3 7
+    Output:
+    Arr-Index Sum
+    0 4
+    1 2
+    3 12
+    4 3
+    5 7
+    - Ray 4 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    10
+    Answers
+
+    Round 2: Q2:
+    Given a tree, in addition to the left and right pointer, it has a third pointer, that is set to NULL.
+    Set the third pointer to a node, which will be the successor of the current node, when the tree is traversed in the zig-zag order. In other words, if we traverse the tree using this third pointer alone, then we will be traversing the tree in the zig-zag order.
+    Input:
+    (Plz construct the tree using the pre-order and in-order traversals)
+    Pre-order: 1 2 4 5 3 6 7
+    In-order: 4 2 5 1 6 3 7
+    So, after the pointer is fixed, the traversal of the tree using the third pointer should give,
+    1 3 2 4 5 6 7
+    - Abee 4 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    17
+    Answers
+
+    how do you test given BST is a valid BST?
+    - kvap 4 years ago | Report Duplicate | Flag
+    Amazon Software Engineer in Test Trees and Graphs
+    google-interview-questions
+    1
+    of 1 vote
+    34
+    Answers
+
+    Given a binary tree, find 2 leaf nodes say X and Y such that F(X,Y) is maximum where F(X,Y) = sum of nodes in the path from root to X + sum of nodes in the path from root to Y - sum of nodes in the common path from root to first common ancestor of the Nodes X and Y
+    - jobseeker 4 years ago | Report Duplicate | Flag
+    Google Software Engineer / Developer Trees and Graphs
+    google-interview-questions
+    1
+    of 1 vote
+    38
+    Answers
+
+    A rooted binary tree with keys in its nodes has the binary search tree
+    property (BST property) if, for every node, the keys in its left
+    subtree are smaller than its own key, and the keys in its right
+    subtree are larger than its own key. It has the heap property if, for
+    every node, the keys of its children are all smaller than its own key.
+    You are given a set of n binary tree nodes that each contain an
+    integer i and an integer j. No two i values are equal and no two j
+    values are equal. We must assemble the nodes into a single binary tree
+    where the i values obey the BST property and the j values obey the
+    heap property. If you pay attention only to the second key in each
+    node, the tree looks like a heap, and if you pay attention only to the
+    first key in each node, it looks like a binary search tree.Describe a
+    recursive algorithm for assembling such a tree
+    - Rahul 4 years ago | Report Duplicate | Flag
+    Google Software Engineer / Developer Algorithm Data Structures Trees and Graphs
+    goldman-sachs-interview-questions
+    0
+    of 0 votes
+    16
+    Answers
+
+    Find the distance of a node from the root in a binary tree.Print error message if node doesn't exist.
+    Extend the problem to distance of any node to any other node that is below it.
+    - Sneha Sharma 4 years ago | Report Duplicate | Flag
+    Goldman Sachs Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    29
+    Answers
+
+    Maximum Sum path in a binary tree where the each node has a integer value associated to it.We have to print the ROOT TO LEAF path with maximum sum.
+    - Ajeet 4 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    24
+    Answers
+
+    Given a two balanced binary search trees.Merge both the trees so that it will form again a balanced binary search tree.
+
+    (NOTE: Request for correction: should the input bst s have same number of nodes? if the input bst s have unequal nodes, we cant necessarily build a balanced bst for the result )
+    - kumar 4 years ago in - | Report Duplicate | Flag
+    Google Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    18
+    Answers
+
+    Given a binary tree convert it into double linked list
+
+    eg:
+
+    A
+                B        C
+            D       E  F    G
+
+    output should be A B C G F E D or A C B D E F G
+    - kumarasvn 4 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    2
+    Answers
+
+    Write code to calculate forward, reverse and cross edges of a given graph
+    - A 4 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    5
+    Answers
+
+    Given an n-ary tree find out whether given element is there in the tree or not without using recursion
+    - putta.sreenivas 4 years ago | Report Duplicate | Flag
+    Amazon Developer Program Engineer Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    8
+    Answers
+
+    Write insert function for a binary search tree?
+    Given constraint:
+    1. The insertion should be such that the tree remains balanced.
+    2. You can move the any non-leaf/root node to be a leaf/non-root node.
+
+    At the end of inserting any random insertion the tree should be BST and balanced. he gave the sample data as {1,2,3,4,5,6,7,8}
+    - SAN 4 years ago | Report Duplicate | Flag
+    Google Software Engineer / Developer Trees and Graphs
+    motorola-interview-questions
+    0
+    of 0 votes
+    11
+    Answers
+
+    Question 3: Asked to print the path of the tree in zig-zag fashion
+    - Sksharsha 4 years ago | Report Duplicate | Flag
+    Motorola Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    20
+    Answers
+
+    Write a program to reverse pointers of a binary tree?
+
+    Means to reverse all the pointers like at the beginning root points to children..The function should reverse pointers such that children point to root...
+
+    I hope I am clear...
+    - Anonymous 5 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    23
+    Answers
+
+    Given a BST, print all nodes lying between two values, inclusive of these values. Write test cases for same.
+    - Anil 5 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Algorithm Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    25
+    Answers
+
+    Given a tree where each node points to its parent, find LCA of two nodes. Write test cases for same.
+    - Anil 5 years ago | Report Duplicate | Flag
+    Microsoft Amazon Software Engineer / Developer Algorithm Coding Trees and Graphs
+    one97-interview-questions
+    0
+    of 0 votes
+    1
+    Answer
+
+    wap to get the height of a BST?
+    - bk 5 years ago | Report Duplicate | Flag
+    One97 Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    48
+    Answers
+
+    A special type of tree is given, Where all leaf are marked with L and others are marked with N. every node can have 0 or at most 2 nodes. Trees preorder traversal is given give a algorithm to build tree from this traversal.
+    - mail2maulish 5 years ago | Report Duplicate | Flag
+    Amazon Trees and Graphs
+    citrix-system-inc-interview-questions
+    0
+    of 0 votes
+    6
+    Answers
+
+    write a program which find LCA of a binary tree. It is not a BST
+    - dutta_dipankar08@yahoo.co.in 5 years ago | Report Duplicate | Flag
+    Citrix System Inc Software Engineer / Developer Algorithm Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    3
+    Answers
+
+    Implement the following Interface with a Tree implementation of a Map.
+
+    public interface Map<K extends Comparable, V> {
+
+    public void put(K key, V value);
+
+    public V get(K key);
+
+    public int size();
+
+    }
+    - Anonymous 5 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    facebook-interview-questions
+    1
+    of 1 vote
+    17
+    Answers
+
+    Given a binary tree, compute min depth of a leaf node.
+
+    Hint:
+    1. BFS
+    2. Recursive implementation
+    Which is better in time complexity?
+    - Cartman 5 years ago | Report Duplicate | Flag
+    Facebook Software Engineer / Developer Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    2
+    Answers
+
+    Implement count Non-leaf nodes on a binary tree.
+    - Cartman 5 years ago | Report Duplicate | Flag
+    Software Engineer / Developer Trees and Graphs
+    flipkart-interview-questions
+    0
+    of 0 votes
+    14
+    Answers
+
+    Following is a tree
+    A
+    / \
+    B C
+    / \ / \
+    D E F G
+    /\ /
+    H I J
+
+    You need to print
+    A CB DEFG JIH
+
+    Modified LEVEL order traversal
+    - Kyon Bataoon 5 years ago | Report Duplicate | Flag
+    Flipkart Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    23
+    Answers
+
+    Today i had a interview with amazon , the question asked was for a n-tree where each node contains any no of nodes print the nodes in level order and each level must contain a line with a gap
+    - KK 5 years ago | Report Duplicate | Flag
+    Amazon Developer Program Engineer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    17
+    Answers
+
+    Print elements that are in a vertical column (per column) in a Binary tree
+
+
+
+Trees and Graphs Interview Questions
+Page:
+1 2 3 4 5 6 7 8 9
+Filter:
+Sort By:
+Date | Number of Comments | Most Recent Comment | Votes
+
+    zillow-interview-questions
+    0
+    of 0 votes
+    0
+    Answers
+
+    Design a format that describes the pathways you can traverse in the game Zelda.
+    - Brian 5 years ago | Report Duplicate | Flag
+    Zillow Solutions Architect Trees and Graphs
+    deshaw-inc-interview-questions
+    0
+    of 0 votes
+    29
+    Answers
+
+    find maximum length BST in a given binary tree.
+    - ajay 5 years ago | Report Duplicate | Flag
+    Deshaw Inc Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    27
+    Answers
+
+    Given a root and a node of a binary tree, write a function which finds all the nodes which are a 'k' distance from the given nodes. (distance can be upwards and downwards)
+    - Loony 5 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Coding Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    3
+    Answers
+
+    how will you find a maximum path in a graph
+    - someone 5 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    19
+    Answers
+
+    There is a parking lot of cars that is full except for a single spot. Write some code to take it from one arbitrary configuration to another moving only one car at a time into the empty spot. Analyse the time complexity, how would you improve it, etc.
+    - jobseeker 5 years ago | Report Duplicate | Flag
+    Google Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    21
+    Answers
+
+    Write a program to find the mirror image of a n-ary tree
+    - Anonymous 5 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer in Test Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    31
+    Answers
+
+    Given a binary tree print the nodes in this order:
+    all the left most nodes from top to bottom, then all the leaves, then all the right most nodes from bottom to top, then the root. like
+
+    10
+                5            15
+            3       2   12        17
+
+    you would print 5 3 2 12 17 15 10
+    - Manox 5 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Algorithm Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    26
+    Answers
+
+    algorithm - given binary tree, check if it has any 2 leaf nodes which differ by more than 1 level (write code for this)
+    - Mr. XYZ 5 years ago | Report Duplicate | Flag
+    Microsoft Program Manager Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    11
+    Answers
+
+    Height of a BInary tree.
+    - Anonymous 5 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    10
+    Answers
+
+    Given a log file which has customer id and corresponding to that id it has a page id visited by that customer. Given such log files for 3 consecutive days, design an algo to find those customers which visited the site on exactly 2 out of 3 days and visited at least 3 distinct pages. Discuss the design and space complexity. Optimize (question is not about using unix tricks)
+    - AnonymousUser 5 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    33
+    Answers
+
+    Algo to check if given binary tree is binary search tree or not. Code it and return true or false. Also it should find the number of nodes in the tree irrespective if the tree is BST or not.
+    - AnonymousUser 5 years ago | Report Duplicate | Flag
+    Amazon Microsoft Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    14
+    Answers
+
+    Find diameter of tree. Code it
+    - AnonymousUser 5 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    11
+    Answers
+
+    Mirror a binary tree
+    - Anonymous 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    facebook-interview-questions
+    0
+    of 0 votes
+    18
+    Answers
+
+    Take a tree (binary or otherwise), write a method in any language that, when given the root node, will print out the tree in level order. With a new line after the end of every level.
+
+    Helper methods are ok, big O run time efficiency doesn't matter (though obviously a quicker solution is better). Do not destroy original tree.
+    - Jason Jiang 6 years ago | Report Duplicate | Flag
+    Facebook Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    3
+    Answers
+
+    implement the pre-order traversal of a tree.
+    - myanything 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    13
+    Answers
+
+    Check whether a binary tree is BST(if the binary tree is very large, you can not simply in-order print all the nodes out.)
+    - myanything 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    6
+    Answers
+
+    Calculate the Depth of Binary Tree
+    - myanything 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    9
+    Answers
+
+    Write code to get the mirror image of a tree ( the same tree needs to be modified to get its mirror image)
+    - Emma 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer in Test Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    22
+    Answers
+
+    Given a BST and sum,find minimum node from root to leaf till u get the sum of node values equal to that sum.
+    - iiit hyd 6 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Algorithm Coding Trees and Graphs
+    directi-interview-questions
+    0
+    of 0 votes
+    3
+    Answers
+
+    How is heap different from a BST?
+    When should I use heap and when should I use BST?
+    What are hash tables? What is collision ?
+    - game 6 years ago | Report Duplicate | Flag
+    Directi Software Engineer / Developer Trees and Graphs
+    adobe-interview-questions
+    0
+    of 0 votes
+    37
+    Answers
+
+    Convert a binary search tree to a sorted doubly linked list
+    inplace.
+    - Anonymous 6 years ago | Report Duplicate | Flag
+    Adobe Microsoft Software Engineer / Developer Data Structures Trees and Graphs
+    flipkart-interview-questions
+    0
+    of 0 votes
+    16
+    Answers
+
+    Given a Binary Tree(not a BST) find the maximum element.
+    - Vaishnavi 6 years ago | Report Duplicate | Flag
+    Flipkart Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    20
+    Answers
+
+    Balance factor of a node in a binary=(number of all its descendants/level of node);
+
+    balance factor of tree=sum of BF of all nodes
+
+    Find the balance factor of a binary tree in most efficient way.
+    - t2 6 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    41
+    Answers
+
+    Given a variation of a binary tree(not BST) in which each node has a parent, left and right pointer. The nodes do not have any key elements or any other data to identify itself. The root is the node that has a null parent pointer. You are given the pointers to two random nodes in the tree which may or may not be at the same level. Find the first common ancestor to the two random nodes given in the tree.
+    - Anonymous 6 years ago | Report Duplicate | Flag
+    Amazon Microsoft Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    24
+    Answers
+
+    Given 2 nodes in a binary tree, find their lowest common ancestor.
+    - Hari 6 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer in Test Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    46
+    Answers
+
+    find LCA (lowest common ancestor) for non binary tree.
+    - Anonymous 6 years ago | Report Duplicate | Flag
+    Amazon Microsoft Software Engineer / Developer Algorithm Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    15
+    Answers
+
+    telephonic:
+    write an efficient function to find the diametre of a tree,
+
+    diameter is the largest distance between two two nodes.
+    - rider 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    yahoo-interview-questions
+    0
+    of 0 votes
+    3
+    Answers
+
+    How to develop a sorted lexicographic tree.
+    - RKB 6 years ago | Report Duplicate | Flag
+    Yahoo Software Engineer / Developer Trees and Graphs
+    trees-and-graphs-interview-questions
+    -1
+    of 1 vote
+    0
+    Answers
+
+    How to implement tries to create a tree, and find the words as per the prefixes.
+    - RKB 6 years ago | Report Duplicate | Flag
+    Software Engineer / Developer Trees and Graphs
+    bloomberg-lp-interview-questions
+    0
+    of 0 votes
+    10
+    Answers
+
+    Generate a binary search tree from a continuous stream of numbers.
+    - Rohan 6 years ago | Report Duplicate | Flag 
+
+
+
+Trees and Graphs Interview Questions
+Page:
+1 2 3 4 5 6 7 8 9
+Filter:
+Sort By:
+Date | Number of Comments | Most Recent Comment | Votes
+
+    amazon-interview-questions
+    0
+    of 0 votes
+    19
+    Answers
+
+    Given a binary tree, write code to find if is a symmetric tree.. Extrapolate it to n-ary trees.
+    - SK 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    20
+    Answers
+
+    How can you think of a way to implement a stack using BST
+    - Anon 6 years ago | Report Duplicate | Flag
+    Amazon Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    34
+    Answers
+
+    How many binary tree can be formed if n number are given
+    - Arvind 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    adobe-interview-questions
+    0
+    of 0 votes
+    31
+    Answers
+
+    Write a c program to search for an element in a binary tree[not BST] and if found return its level. root is labelled level 0 and children are one level incremented than its parent.
+    if not found return -1
+    - technicalChaos 6 years ago | Report Duplicate | Flag
+    Adobe Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    0
+    of 0 votes
+    50
+    Answers
+
+    Given a binary tree with the following node structure
+
+    struct node
+    {
+    //data
+    //pointer to left subtree
+    //pointer to right subtree
+    //pointer to sibling
+
+    };
+
+
+    The sibling pointers are NULL for all the nodes.Make the sibling pointers point to their respective nodes in O(n)time complexity
+    - Idea 6 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs Algorithm
+    amazon-interview-questions
+    0
+    of 0 votes
+    13
+    Answers
+
+    Given a tree with N nodes and a N*N matrix. you have to fill in the matrix such that a[i][j]=1 if i is an ancestor of j else a[i][j]=0.
+    - gliteringxxx 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    25
+    Answers
+
+    write an algo to Check whether a graph is a straight line.You are given an adjacency matrix representation of the graph which is a N*N matrix
+    - gliteringxxx 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    google-interview-questions
+    0
+    of 0 votes
+    18
+    Answers
+
+    Write code to print out a binary tree so that each depth is printed on its own line. The spacing doesn't need to be correct, but the items within a depth must be in order and on a single line.
+    1
+    / \
+    2 3
+    / \
+    4 5
+    \
+    7
+    1
+    2 3
+    4 5
+    7
+    - Han 6 years ago | Report Duplicate | Flag
+    Google Software Engineer in Test Trees and Graphs
+    trees-and-graphs-interview-questions
+    0
+    of 0 votes
+    4
+    Answers
+
+    Find the n-th neighbor of all nodes in an undirected graph. Can you use the same algorithm for digraph? If not, why and what needs to be changed?
+    - ak 6 years ago | Report Duplicate | Flag
+    Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    47
+    Answers
+
+    Write a function to find the longest path of a tree
+    - mp 6 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    microsoft-interview-questions
+    -4
+    of 0 votes
+    11
+    Answers
+
+    An AVL-tree is defined to be a binary tree that satisfies the property that for any node X, the depths of the left and right subtrees of X differ by at most one. Let M(n) denote the minimum number of nodes in an AVL-tree of depth n.
+
+    Q: show that M(0)=1, M(1)=2, and M(n)=1+M(n-1)+M(n-2), for n>=2
+
+    Q: prove by induction that M(n)= f<n+2>-1, for all n>=0, where f<0>=f<1>=1, f<n>=f<n-1>+f<n-2> are the fibonacci numbers.
+    - AVL Tree 7 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    11
+    Answers
+
+    Given n strings. One string can be connected to other only if last letter of first string is same as first letter of second string. Like this all n strings are connected. Find whether it is possible to form a chain of these strings i.e is it possible to connect all the strings in such a way that all the strings are connected and each string occurs exactly once.
+    Hint: Hamiltonian path
+    - Meghna 7 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    16
+    Answers
+
+    A semi-connected graph is a graph that for each pair of vertices u,v, there is either a path from u to v or a path from v to u. Give an algorithm to test if a graph is semi-connected.
+    - Kevin 7 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    18
+    Answers
+
+    How can you serialize a binary tree
+    - Amazonview 7 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    19
+    Answers
+
+    write a iterative function for postorder binary search tree traversal(little bit challenging??????????)
+    - Azhar khan 7 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    bloomberg-lp-interview-questions
+    0
+    of 0 votes
+    8
+    Answers
+
+    What is the complexity of operations in a binary search tree?
+    - kashy 7 years ago | Report Duplicate | Flag
+    Bloomberg LP Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    6
+    Answers
+
+    What are the advantages and disadvantage of hashtable vs binary trees. When would you use it?
+    - Ratan 7 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs Hash Table
+    amazon-interview-questions
+    2
+    of 2 votes
+    17
+    Answers
+
+    Give the inorder,postorder& preorder forms of a tree in a single traversal
+    - Raady 7 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs
+    amazon-interview-questions
+    0
+    of 0 votes
+    26
+    Answers
+
+    given a binary tree,find the distance between leftmost leaf
+    and right most leaf nodes. Leafs may be at any level...(Nice question)
+    - psp.reachable@gmail.com 7 years ago | Report Duplicate | Flag
+    Amazon Development Support Engineer Trees and Graphs
+    amazon-interview-questions
+    6
+    of 0 votes
+    55
+    Answers
+
+    given a binary tree ,find the largest sub-tree which is a BST...(largest means subtree having largest no of nodes in it)...this is a wonderful question.....
+    - psp.reachable@gmail.com 7 years ago | Report Duplicate | Flag
+    Amazon Development Support Engineer Trees and Graphs
+    adobe-interview-questions
+    2
+    of 0 votes
+    16
+    Answers
+
+    Minimum Common ancestor of given two values in the Binary tree
+    - Adobe 7 years ago | Report Duplicate | Flag
+    Adobe Software Engineer / Developer Trees and Graphs Algorithm
+    amazon-interview-questions
+    0
+    of 0 votes
+    10
+    Answers
+
+    Find out the maximum depth of a binary tree. Hint: its not balanced. I was not able to formulate this solution but was almost there.
+    - perllove 7 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs Algorithm
+    microsoft-interview-questions
+    1
+    of 1 vote
+    32
+    Answers
+
+    Reverse a Binary Tree (not BST)
+
+    Interviewer started with giving me a sample of balance binary tree with Depth 3 i.e. so total 7 nodes.
+    - pk 7 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs
+    adobe-interview-questions
+    6
+    of 0 votes
+    10
+    Answers
+
+    Write an algorithm to print a binary tree level wise and that too from leaves to root. Also only one queue and one stack can be used for the purpose.
+    - Anonymous 7 years ago | Report Duplicate | Flag
+    Adobe Software Engineer / Developer Trees and Graphs Algorithm
+    microsoft-interview-questions
+    0
+    of 0 votes
+    6
+    Answers
+
+    Create a program that traverses a tree full of nodes and calls a function when it reaches a leaf node.
+
+    <node> childnode
+    a node
+    + childnodes
+    b node
+    + childnodes
+    c node
+    + childnodes
+    x node
+    d node
+    g node
+    p node
+    - dal 8 years ago | Report Duplicate | Flag
+    Microsoft Web Developer Trees and Graphs Coding
+    microsoft-interview-questions
+    1
+    of 1 vote
+    71
+    Answers
+
+    Given a value and a binary search tree.
+    Print all the paths(if there exists more than one) which sum up to that value. It can be any path in the tree. It doesn't have to be from the root.
+    - vodangkhoa 8 years ago | Report Duplicate | Flag
+    Microsoft Yahoo Software Engineer / Developer Trees and Graphs Coding Algorithm
+    microsoft-interview-questions
+    0
+    of 0 votes
+    6
+    Answers
+
+    Create a B-Tree given a large sorted array of integers. Each Node should be around 4KB.
+    - vodangkhoa 9 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs Coding Algorithm
+    amazon-interview-questions
+    2
+    of 0 votes
+    19
+    Answers
+
+    If there are two structs, TreeNode and Tree. TreeNode contains 3 elements, data, lChild and rChile. Tree contains 2 elements, int size and TreeNode *root. The tree is a complete tree. So how to find a O(logN) approach to insert a new node.
+    - Little Bread 9 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs Algorithm
+    amazon-interview-questions
+    0
+    of 0 votes
+    17
+    Answers
+
+    Design an algorithm and write code to serialize and deserialize a binary tree/graph
+    - AP 9 years ago | Report Duplicate | Flag
+    Amazon Software Engineer / Developer Trees and Graphs Coding Algorithm
+    amazon-interview-questions
+    1
+    of 0 votes
+    21
+    Answers
+
+    Algorithm: You have a tree (not Binary) and you want to print the values of all the nodes in this tree level by level. Discussed on phone and asked me to email Java code for my algorithm.
+    - ybh6336 10 years ago | Report Duplicate | Flag 
+
+
+
+Trees and Graphs Interview Questions
+Page:
+1 2 3 4 5 6 7 8 9
+Filter:
+Sort By:
+Date | Number of Comments | Most Recent Comment | Votes
+
+    microsoft-interview-questions
+    0
+    of 0 votes
+    16
+    Answers
+
+    Coding: Write a program to determine if a binary tree is well ordered
+    - Gayle L McDowell 10 years ago | Report Duplicate | Flag
+    Microsoft Software Engineer / Developer Trees and Graphs Coding
+    goldman-sachs-interview-questions
+    0
+    of 0 votes
+    26
+    Answers
+
+    Coding: return max depth of binary tree
+    - I used recursion
+    - How would you do it without recursion?
+    - Gayle L McDowell 10 years ago | Report Duplicate | Flag 
