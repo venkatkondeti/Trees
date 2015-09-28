@@ -1,0 +1,58 @@
+package com.segment.tree;
+
+
+public class SegmentTree {
+	
+	private static int mid(int ss, int se){
+		return ss+(se-ss)/2;
+	}
+	public static int constuctSegmentTreeUtil(int[] array, int ss,int se, int[] newarray, int si){
+		if(ss==se){
+			newarray[si]=array[ss];
+			return newarray[si];
+		}
+		int mid= mid(ss,se);
+		newarray[si]=constuctSegmentTreeUtil(array, ss, mid, newarray, si*2+1)+
+					constuctSegmentTreeUtil(array, mid+1, se, newarray, si*2+2);
+		return newarray[si];
+	}
+	
+	public static int[] constructSegmentTree(int[] array){
+		if(array==null || array.length==0|| array.length==1)
+			return array;
+		int x=(int) Math.ceil(Math.log(array.length-1)/Math.log(2));
+		
+		int[] newarray=new int[(int) (2*Math.pow(2, x)-1)];
+		constuctSegmentTreeUtil(array, 0, array.length-1, newarray, 0);
+		return newarray;
+	}
+	
+	public static int getSum(int[] newarray, int qs,int qe,int si){
+		if(qs<0 || qe>newarray.length-1 || qe<qs){
+			System.out.println("invalid input");
+			return -1;
+		}
+		return getSumUtil(newarray,0,5,qs,qe,0);	
+	}
+	private static int getSumUtil(int[] newarray, int ss, int se, int qs, int qe,	int si) {
+		if (qs >= ss && qe <= se)
+	        return newarray[si];
+	 
+	    // If segment of this node is outside the given range
+	    if (se < qs || ss > qe)
+	        return 0;
+	 
+	    // If a part of this segment overlaps with the given range
+	    int mid = mid(ss, se);
+	    return getSumUtil(newarray, ss, mid, qs, qe, 2*si+1) +
+	           getSumUtil(newarray, mid+1, se, qs, qe, 2*si+2);
+	}
+	public static void main(String[] args) {
+		int arr[] = {1, 3, 5, 7, 9, 11};
+		int[] temp=constructSegmentTree(arr);
+		for(int i=0;i<temp.length;i++)
+		System.out.print(" "+temp[i]);
+		System.out.println();
+		System.out.println(getSum(temp, 1, 3, 0));
+	}
+}
