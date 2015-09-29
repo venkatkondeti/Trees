@@ -26,6 +26,28 @@ public class SegmentTree {
 		return newarray;
 	}
 	
+	
+	public static int[] constructMinSegmentTree(int[] array){
+		if(array==null || array.length==0|| array.length==1)
+			return array;
+		int x=(int) Math.ceil(Math.log(array.length-1)/Math.log(2));
+		
+		int[] newarray=new int[(int) (2*Math.pow(2, x)-1)];
+		constuctSegmentMinTreeUtil(array, 0, array.length-1, newarray, 0);
+		return newarray;
+	}
+	
+	public static int constuctSegmentMinTreeUtil(int[] array, int ss,int se, int[] newarray, int si){
+		if(ss==se){
+			newarray[si]=array[ss];
+			return newarray[si];
+		}
+		int mid= mid(ss,se);
+		newarray[si]=Math.min(constuctSegmentMinTreeUtil(array, ss, mid, newarray, si*2+1),
+					constuctSegmentMinTreeUtil(array, mid+1, se, newarray, si*2+2));
+		return newarray[si];
+	}
+	
 	public static int getSum(int[] newarray, int qs,int qe,int si){
 		if(qs<0 || qe>newarray.length-1 || qe<qs){
 			System.out.println("invalid input");
@@ -47,6 +69,27 @@ public class SegmentTree {
 	           getSumUtil(newarray, mid+1, se, qs, qe, 2*si+2);
 	}
 	
+	public static int getMin(int[] newarray, int qs,int qe,int si){
+		if(qs<0 || qe>newarray.length-1 || qe<qs){
+			System.out.println("invalid input");
+			return -1;
+		}
+		return getMinUtil(newarray,0,5,qs,qe,0);	
+	}
+	
+	private static int getMinUtil(int[] newarray, int ss, int se, int qs, int qe,	int si) {
+		if (qs <= ss && qe >= se)
+	        return newarray[si];
+	 
+	    // If segment of this node is outside the given range
+	    if (se < qs || ss > qe)
+	        return Integer.MAX_VALUE;
+	 
+	    // If a part of this segment overlaps with the given range
+	    int mid = mid(ss, se);
+	    return Math.min(getMinUtil(newarray, ss, mid, qs, qe, 2*si+1),
+	           getMinUtil(newarray, mid+1, se, qs, qe, 2*si+2));
+	}
 	
 	public static void updateValue(int[] array, int[] newarray,int i, int newValue){
 		if(i<0 || i>array.length-1)
@@ -74,7 +117,15 @@ public class SegmentTree {
 		System.out.println();
 		System.out.println(getSum(temp, 1, 3, 0));
 		
-		updateValue(arr, temp, 2, 10);
-		System.out.println(getSum(temp, 1, 3, 0));
+		//updateValue(arr, temp, 2, 10);
+		//System.out.println(getSum(temp, 1, 3, 0));
+		System.out.println("===============");
+		int[] t=constructMinSegmentTree(arr);
+		for(int i=0;i<t.length;i++)
+			System.out.print(" "+t[i]);
+			System.out.println();
+			System.out.println(getSum(t, 1, 3, 0));
+		System.out.println("===========");
+		System.out.println(getMin(t, 0, 0, 0));
 	}
 }
